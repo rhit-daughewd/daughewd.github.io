@@ -5,18 +5,35 @@
 :root{
     --vertical-space: 2rem;
     --horizontal-space: 3rem;
+
+    --light-color: #db2b39;
+    --body-color: #00120b;
+    --heading-color: #593f62;
+    --contrast-color: #1d84B5;
 }
 
 body{
     font-size: 18px;
     line-height: 1.5em;
     font-family: 'Titillium Web', sans-serif;
-}    
+
+    background-image: repeating-linear-gradient(112.5deg, hsla(19,0%,93%,0.2) 0px, hsla(19,0%,93%,0.2) 0px,transparent 0px, transparent 1px,hsla(19,0%,93%,0.2) 1px, hsla(19,0%,93%,0.2) 4px,transparent 4px, transparent 5px,hsla(19,0%,93%,0.2) 5px, hsla(19,0%,93%,0.2) 8px),repeating-linear-gradient(0deg, hsla(19,0%,93%,0.2) 0px, hsla(19,0%,93%,0.2) 0px,transparent 0px, transparent 1px,hsla(19,0%,93%,0.2) 1px, hsla(19,0%,93%,0.2) 4px,transparent 4px, transparent 5px,hsla(19,0%,93%,0.2) 5px, hsla(19,0%,93%,0.2) 8px),linear-gradient(135deg, rgb(238, 238, 238),rgb(121, 121, 121));}    
     
 
 h1, h2, h3{
     line-height: 1.2em;
     font-family: 'Kalam', cursive;
+    color: VAR(--heading-color);
+}
+
+a{
+    color: var(--body-color);
+    text-decoration-color: var(--contrast-color);
+}
+
+a:hover{
+    color: var(--contrast-color);
+    text-decoration-color: var(--heading-color);
 }
 
 p{
@@ -101,7 +118,6 @@ body#portfolio ul#portfolioItems li img{
         padding-right: 2%;
     }
 }
-
 
 
 
