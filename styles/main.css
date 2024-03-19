@@ -22,7 +22,7 @@ body{
 
 img{
     float: right;
-    padding-right: 10rem;
+    padding-right: 2rem;
 
 }
 
@@ -132,6 +132,25 @@ body#portfolio ul#portfolioItems li img{
         flex-basis: 48%;
         padding-right: 2%;
     }
+}
+
+#topButton{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--light-color);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    color: azure;
+    
+}
+
+#topButton:hover{
+    background-color: var(--contrast-color);
 }
 
 
