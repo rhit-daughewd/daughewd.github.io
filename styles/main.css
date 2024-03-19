@@ -21,8 +21,9 @@ body{
 }
 
 img{
-    float: left;
-    padding-right: 2em;
+    float: right;
+    padding-right: 10rem;
+
 }
 
 h1, h2, h3{
